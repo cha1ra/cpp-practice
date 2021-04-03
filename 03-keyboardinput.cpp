@@ -1,7 +1,11 @@
 #include <iostream>
 
+// google の c++ コーディング規約で 定数の前には k をつけようと言われている
+const double kTax = 0.8;
+
 int main()
 {
+    // 倍精度浮動小数
     double x, y;
     std::cout << "x:";
     // character in ... キーボードから値の入力
