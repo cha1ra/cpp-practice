@@ -7,7 +7,7 @@ const double kTax = 0.8;
 int main()
 {
     std::random_device seed_gen;
-    std::mt19937 engine(seed_gen);
+    std::mt19937 engine(seed_gen());
     std::uniform_int_distribution<> dist(0, 9);
     int lucky = dist(engine);
 
