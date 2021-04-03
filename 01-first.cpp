@@ -7,17 +7,24 @@
 // 名前空間
 using namespace std;
 
+
 int main()
 {
     // cmd + shift + l で同じ文字列の複数選択 (VSCode
 
     // ストリームにデータを流し込む console out 的な？
+    // ​ビャーネによるとcoutはcharacter output streamらしいですよ
     // stream ... 流れの意味。標準出力ストリーム
-    cout << "初めてのプログラム \n";
+    // 文字列リテラル
+    cout << "初めてのプログラム \n"; // statement: 文 の終わりは原則セミコロンで終わる
     cout << "画面に出力 \n";
     // 名前空間つければ↓↓のように書かなくてOK
     // std::cout << "初めてのプログラム \n";
     // std::cout << "画面に出力 \n";
+    // << std::cout ではなく
+
+    // main関数だけは return 0 省略しても動く
+    //（C言語だとmain関数に限らず，returnは省略できたはず…）とのコメントあり
 }
 
 // $ file 01-first.cpp
@@ -35,3 +42,7 @@ int main()
 
 // objdump -d a.out | less  これなら動いた
 // hexdump a.out | less めっちゃ数字の羅列
+
+// vim tips
+// x で削除なんだけど d がかなり使いやすいとのこと
+// 最近vim-lspを入れてから編集楽しい
