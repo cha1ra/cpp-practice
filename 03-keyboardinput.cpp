@@ -2,7 +2,7 @@
 
 int main()
 {
-    int x, y;
+    double x, y;
     std::cout << "x:";
     // character in ... キーボードから値の入力
     // 右シフト ... extractor 抽出子 と呼ぶ
