@@ -12,5 +12,5 @@ int main()
     cout << 024 << endl;
     cout << 0x14 << endl;
     cout << 015 << endl;
-    cout << 0xd << endl;
+    cout << 0xd << endl;T^^
 }
