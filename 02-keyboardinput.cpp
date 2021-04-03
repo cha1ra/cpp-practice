@@ -1,10 +1,13 @@
 #include <iostream>
 
 int main() {
-    int x, y;
+    int x{63}, y{18};
+    // int x = 63 と同じ。 上からの方が新しい宣言方法
+
+    // int x, y;
     // x, y に値を宣言しないと 何が代入されるわからない
-    x = 63;
-    y = 18;
+    // x = 63;
+    // y = 18;
     std::cout << "x = " << x << std::endl;
     std::cout << "y = " << y << std::endl;
     // 18や63は整数リテラルと呼ぶ
